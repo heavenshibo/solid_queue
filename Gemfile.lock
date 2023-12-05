@@ -3,6 +3,8 @@ PATH
   specs:
     solid_queue (0.2.1)
       rails (~> 7.1)
+      concurrent-ruby (~> 1.2.2)
+      fugit (~> 1.9.0)
 
 GEM
   remote: https://rubygems.org/
@@ -93,6 +95,11 @@ GEM
     drb (2.1.1)
       ruby2_keywords
     erubi (1.12.0)
+    et-orbi (1.2.7)
+      tzinfo
+    fugit (1.9.0)
+      et-orbi (~> 1, >= 1.2.7)
+      raabro (~> 1.4)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.1)
@@ -135,6 +142,7 @@ GEM
     pg (1.5.4)
     puma (6.4.2)
       nio4r (~> 2.0)
+    raabro (1.4.0)
     racc (1.7.3)
     rack (3.0.8)
     rack-session (2.0.0)
